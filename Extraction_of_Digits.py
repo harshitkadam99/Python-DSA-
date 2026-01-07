@@ -114,7 +114,7 @@ n = 36
 num = n
 from math import isqrt
 result = []
-for i in range (1, isqrt(num)+1):
+for i in range (1, isqrt(num)+1):     #(optimal solution)#
     if num % i == 0:
         result.append(i)
         if i !=num // i:
