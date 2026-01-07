@@ -57,7 +57,7 @@ for ch in q:
     index = ascii_val - 97
     print(f"{ch} -> {hash_list.get(index, 0)}")
 
-
+# Cleaner pythonic version
 s = "azyxyyzaaaa"
 q = ['d','a','y','x']
 
